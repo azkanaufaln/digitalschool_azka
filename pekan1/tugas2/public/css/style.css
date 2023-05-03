@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-image: url("../img/pattern.jpg");
+}
+header {
+  display: flex;
+  background-color: white;
+  /* padding: 0px 20px 0px 0px; */
+  justify-content: space-between;
+}
+nav {
+  width: 15%;
+  list-style: none;
+  text-align: center;
+  padding: 20px 20px 0px 0px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+section {
+  background-color: white;
+  width: 50%;
+}
